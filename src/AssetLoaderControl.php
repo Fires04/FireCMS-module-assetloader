@@ -16,11 +16,11 @@
  * limitations under the License.
  */
 
-namespace davidsteincz\globe\control\globeassetloader;
+namespace davidsteincz\genesis\plugin\assetloader;
 
 use Nette;
 
-class GlobeAssetLoaderControl extends \Nette\Application\UI\Control {
+class AssetLoaderControl extends \Nette\Application\UI\Control {
 
     private $files;
     private $remoteFiles;
