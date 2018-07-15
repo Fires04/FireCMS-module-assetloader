@@ -1,0 +1,1 @@
+genesis-plugin-assetloader
