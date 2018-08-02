@@ -2,7 +2,7 @@
 #USE in BasePresenter
 ```php
     protected function createComponentAssetLoader() {
-        $control = new \davidsteincz\globe\control\globeassetloader\GlobeAssetLoaderControl(BASE_URL);
+        $control = new \davidsteincz\genesis\plugin\assetloader\AssetLoaderControl(BASE_URL);
         $control->setCssFolder('/assets/css/');
         $control->setJsFolder('/assets/js/');
 
